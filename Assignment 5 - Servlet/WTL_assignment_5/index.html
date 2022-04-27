@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset=utf-8">
+    <title>BOOKS</title>
+    <style>
+
+        html, body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            background-color: #a9ffc2;
+            color: white;
+            -webkit-text-stroke: 0.5px black;
+        }
+
+        html {
+            display: table;
+            margin: auto;
+        }
+
+        body {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        td{
+            padding: 5px;
+        }
+        label{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        tr{
+            background-color: #b585fc;
+        }
+
+    </style>
+<head>
+<body>
+<h1 style="text-align: center">Book Searcher</h1>
+    <form action="./ServletProgram">
+        <table style="border: 1px solid #005e00">
+            <tr>
+                <td >
+                    <label for="book_id">Book ID:</label>
+                </td>
+                <td>
+                    <input type="text" name="book_id" id="book_id">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <center><input style="background-color: #a9ffc2;color: white;-webkit-text-stroke: 0px black;" type="submit" value="Submit"></center>
+                </td>
+            </tr>
+        </table>
+        </form>
+
+</body>
+</html>
